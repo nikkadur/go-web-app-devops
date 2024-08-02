@@ -29,7 +29,7 @@ jobs:
     - name: Build
       run: go build -o go-web-app
 
-    - name: Test
+    - name: Test1
       run: go test ./...
   
   code-quality:
